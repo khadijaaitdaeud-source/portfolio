@@ -318,6 +318,21 @@ a:hover {
   transform: scale(1.04);
 }
 
+.project-card.delara {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.4), rgba(236, 72, 153, 0.4)), rgba(255, 255, 255, 0.06);
+  border-color: rgba(139, 92, 246, 0.5);
+}
+
+.project-card.veralis {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.4), rgba(52, 211, 153, 0.4)), rgba(255, 255, 255, 0.06);
+  border-color: rgba(16, 185, 129, 0.5);
+}
+
+.project-card.holiva {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.4), rgba(251, 191, 36, 0.4)), rgba(255, 255, 255, 0.06);
+  border-color: rgba(245, 158, 11, 0.5);
+}
+
 .project-content {
   padding: 26px;
 }
