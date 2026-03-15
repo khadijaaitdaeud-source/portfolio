@@ -177,18 +177,10 @@ body {
   box-shadow: var(--shadow-hover);
 }
 
-.grid-2,
-.grid-3 {
+.projects-grid {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 22px;
-}
-
-.grid-2 {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
 }
 
 .card h3 {
